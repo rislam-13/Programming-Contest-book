@@ -10,7 +10,7 @@ int main()
 
     int n=sizeof(ara)/sizeof(ara[0]);
 
-    sort(ara, ara+n);
+    sort(ara, ara+n, greater<int>());
 
     cout<<ara[0]<<" "<<ara[1]<<" "<<ara[2]<<endl;
 
