@@ -12,7 +12,7 @@ int main()
 
     sort(ara, ara+n, greater<int>());
 
-    cout<<ara[0]<<" "<<ara[1]<<" "<<ara[2]<<endl;
+    cout<<ara[0]<<endl;
 
     return 0;
 }
